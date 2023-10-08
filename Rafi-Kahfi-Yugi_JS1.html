@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafi Kahfi Yugi_JS1</title>
+</head>
+
+<body>
+    <script>
+        // Tugas no 1 : If, Else If, Nested If
+        let x = 10;
+        let y = 20;
+
+        if (x > 7) {
+            if (y > 15) {
+                console.log("x lebih besar dari 5 dan y lebih besar dari 10");
+            } else {
+                console.log("x lebih besar dari 5 dan y kurang dari atau sama dengan 10");
+            }
+        } else {
+            console.log("x kurang dari atau sama dengan 5");
+        }
+
+        // Tugas no 2 : Switch Case
+        var day = '';
+
+        switch (new Date().getDay()) {
+            case 0:
+                day = 'Minggu';
+                break;
+            case 1:
+                day = 'Senin';
+                break;
+            case 2:
+                day = 'Selasa';
+                break;
+            case 3:
+                day = 'Rabu';
+                break;
+            case 4:
+                day = 'Kamis';
+                break;
+            case 5:
+                day = 'Jumat';
+                break;
+            case 6:
+                day = 'Sabtu';
+        }
+
+        console.log('Hari ini adalah hari ' + day);
+
+        // Tugas no 3 : For Statement
+        var i;
+        for (i = 1; i <= 3; i = i + 1)
+            console.log("Tugas no 3 : For Statement");
+
+        // Tugas no 4 : While, Do While
+        var i = 1;
+        do {
+            console.log("Sekarang tugas no 4 : While & Do While");
+            i++;
+        }
+        while (i <= 5)
+
+        // Tugas no 5 : Function
+        function perkalian(x1, x2) {
+            return x1 * x2;
+        }
+
+        console.log(perkalian(5, 5));
+    </script>
+</body>
+
+</html>
